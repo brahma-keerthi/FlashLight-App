@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageMainOff = (ImageView) findViewById(R.id.imageMain);
         ImageView imageButtonOff = (ImageView) findViewById(R.id.imageButton2);
         ImageView imageMainOn = (ImageView) findViewById(R.id.imageMain2);
+
         if (count % 2 == 1){
 //            flashlight is off so on button and off symbol
             imageMainOff.animate().alpha(1f).setDuration(500);
