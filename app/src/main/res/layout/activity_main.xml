@@ -62,4 +62,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/off" />
 
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOS"
+        android:textColor="#07C81F"
+        android:textSize="24sp"
+        android:checked="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageMain2"
+        app:layout_constraintVertical_bias="0.096" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

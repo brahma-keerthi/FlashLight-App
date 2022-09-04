@@ -9,9 +9,11 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
     int count = 0;
+    // Count to track off and on state of flashlight
 
     public void buttonPress(View v){
         ImageView imageButtonOn = (ImageView) findViewById(R.id.imageButton);
