@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     // Count to track off and on state of flashlight
 
     public void buttonPress(View v){
+        // Getting ids to views
         ImageView imageButtonOn = (ImageView) findViewById(R.id.imageButton);
         ImageView imageMainOff = (ImageView) findViewById(R.id.imageMain);
         ImageView imageButtonOff = (ImageView) findViewById(R.id.imageButton2);
